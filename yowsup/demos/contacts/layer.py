@@ -21,8 +21,6 @@ class SyncLayer(YowInterfaceLayer):
 
     def onGetSyncResult(self, resultSyncIqProtocolEntity, originalIqProtocolEntity):
         print(resultSyncIqProtocolEntity)
-        raise KeyboardInterrupt()
 
     def onGetSyncError(self, errorSyncIqProtocolEntity, originalIqProtocolEntity):
         print(errorSyncIqProtocolEntity)
-        raise KeyboardInterrupt()
